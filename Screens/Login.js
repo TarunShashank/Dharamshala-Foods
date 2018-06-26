@@ -21,8 +21,8 @@ export class Login extends Component {
         >
             <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
                 <View style={{backgroundColor: 'white', height: 100, width: 200,  alignItems:'center', justifyContent:'center'}}>
-                    <Text style={{fontFamily: 'Pacifico-Regular', fontWeight:'bold', fontSize:26}}>Dharamshala</Text>
-                    <Text style={{fontFamily: 'Pacifico-Regular', fontWeight:'bold', fontSize:26}}>Foods </Text>    
+                    <Text style={{fontFamily: 'Pacifico', fontWeight:'bold', fontSize:30}}>Dharamshala</Text>
+                    <Text style={{fontFamily: 'Pacifico', fontWeight:'bold', fontSize:30}}>Foods </Text>    
                 </View>
             </View>
         </ImageBackground>
