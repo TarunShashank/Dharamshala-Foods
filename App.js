@@ -4,19 +4,19 @@ import {
   Text,
   View
 } from 'react-native';
-
+import {StackNavigator} from 'react-navigation'
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>
-          Welcome to React Native!
-        </Text>
-      </View>
+     <AppStackNavigator/>
     );
   }
 }
+
+const AppStackNavigator =StackNavigator ({
+  LoginScreen : { screen : Login}
+})
 
 const styles = StyleSheet.create({
   container: {
