@@ -5,6 +5,7 @@ import {
   View
 } from 'react-native';
 import {StackNavigator} from 'react-navigation'
+import Login from './Screens/Login'
 
 export default class App extends Component {
   render() {
