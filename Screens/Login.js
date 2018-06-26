@@ -5,7 +5,7 @@ import {
     Text,
     ImageBackground
 } from 'react-native';
-import { Fonts } from './src'
+import { Fonts } from '../src/utils/Fonts';
 
 export class Login extends Component {
 
@@ -22,7 +22,7 @@ export class Login extends Component {
         >
             <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
                 <View style={{backgroundColor: 'white', height: 100, width: 200,  alignItems:'center', justifyContent:'center'}}>
-                    <Text style={{fontFamily: 'Pacifico', fontWeight:'bold', fontSize:30}}>Dharamshala</Text>
+                    <Text style={{fontFamily: Fonts.Pacifico, fontWeight:'bold', fontSize:30}}>Dharamshala</Text>
                     <Text style={{fontFamily: 'Pacifico', fontWeight:'bold', fontSize:30}}>Foods </Text>    
                 </View>
             </View>
