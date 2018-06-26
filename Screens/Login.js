@@ -5,6 +5,7 @@ import {
     Text,
     ImageBackground
 } from 'react-native';
+import { Fonts } from './src'
 
 export class Login extends Component {
 
