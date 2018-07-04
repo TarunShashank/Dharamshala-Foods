@@ -102,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\build\intermediates\exploded-aar\dharamshalafoods\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\build\intermediates\pre-dexed\debug\dharamshalafoods-react-native-vector-icons-unspecified_1498f187b04f730de46a6052e96c15c880bbfbe5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"

@@ -10,14 +10,33 @@ import {
     Animated,
     Dimensions,
     Keyboard,
+    Alert,
     Platform
 } from 'react-native';
-
 import { Icon } from 'native-base'
-const SCREEN_HEIGHT = Dimensions.get('window').height
+import { SocialIcon } from 'react-native-elements'
 import * as Animatable from 'react-native-animatable'
 
+
+const SCREEN_HEIGHT = Dimensions.get('window').height
+
 export class Login extends Component {
+
+
+    ShowMaxAlert = (EnteredValue) =>{
+      
+        var TextLength = EnteredValue.length.toString() ;
+   
+        if(TextLength == 10){
+   
+        //  Alert.alert("Sorry, a phone number can have only 10 digits.")
+          // Put your code here which you want to execute when TextInput entered text reached to 10.
+   
+        }
+   
+      
+       }
+
 
     static navigationOptions = {
         header: null
@@ -34,6 +53,8 @@ export class Login extends Component {
    componentWillMount(){
 
         this.loginHeight = new Animated.Value(150)
+
+        this.socialHeight = new Animated.Value(70)
 
         this.keyboardWillShowListener = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow)
 
@@ -96,7 +117,7 @@ keyboardWillHide = (event) => {
             toValue: 0
         }),
         Animated.timing(this.borderBottomWidth, {
-            duration: event.duration,
+            duration: duration,
             toValue: 0
         })
 
@@ -107,7 +128,7 @@ keyboardWillHide = (event) => {
 
         this.setState({ placeholderText: '092123456789' })
         Animated.timing(this.loginHeight, {
-            toValue: SCREEN_HEIGHT,
+            toValue: SCREEN_HEIGHT + 10,
             duration: 500
         }).start(() => {
 
@@ -120,6 +141,24 @@ keyboardWillHide = (event) => {
         Keyboard.dismiss()
         Animated.timing(this.loginHeight, {
             toValue: 150,
+            duration: 500
+        }).start()
+    }
+
+    increaseHeightOfSocialLogin = () => {
+
+        //this.setState({ placeholderText: '092123456789' })
+        Animated.timing(this.socialHeight, {
+            toValue: SCREEN_HEIGHT,
+            duration: 500
+        }).start()
+    }
+
+    decreaseHeightOfSocialLogin = () => {
+
+        Keyboard.dismiss()
+        Animated.timing(this.socialHeight, {
+            toValue: 70,
             duration: 500
         }).start()
     }
@@ -151,6 +190,14 @@ keyboardWillHide = (event) => {
         outputRange: [0, 1]
     })
 
+    const marginSocialTop = this.socialHeight.interpolate({
+        inputRange: [0, SCREEN_HEIGHT],
+        outputRange: [0, 1]
+    })
+    const socialTextBottom = this.loginHeight.interpolate({
+        inputRange: [70, 350, SCREEN_HEIGHT],
+        outputRange: [0, 0, 100]
+    })
 
 
     return (
@@ -167,11 +214,9 @@ keyboardWillHide = (event) => {
                 }}
             >
                 <TouchableOpacity
-                    onPress={() => this.decreaseHeightOfLogin()}
+                    onPress={() => this.decreaseHeightOfLogin() || this.decreaseHeightOfSocialLogin() }
 
-
-
-                    
+    
                 >
                     <Icon name="md-arrow-back" style={{ color: 'black' }} />
                 </TouchableOpacity>
@@ -201,9 +246,9 @@ keyboardWillHide = (event) => {
                 <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                     <Animatable.View
                         animation="zoomIn" iterationCount={1}
-                        style={{ backgroundColor: 'white', height: 100, width: 175, alignItems: 'center', justifyContent: 'center' }}>
-                        <Text style={{ fontWeight: 'bold',color:'black', fontSize: 26 }}>Dharamshala</Text>
-                        <Text style={{ fontWeight: 'bold',color:'black', fontSize: 26 }}>Foods</Text>
+                        style={{ backgroundColor: 'white', height: 175, width: 175, alignItems: 'center', justifyContent: 'center' }}>
+                        <Text style={{ fontWeight: 'bold',color:'black', fontSize: 27 }}>Dharamshala</Text>
+                        <Text style={{ fontWeight: 'bold',color:'black', fontSize: 27 }}>Foods</Text>
                     </Animatable.View>
                 </View>
 
@@ -278,31 +323,52 @@ keyboardWillHide = (event) => {
                                         style={{ flex: 1, fontSize: 20 }}
                                         placeholder={this.state.placeholderText}
                                         underlineColorAndroid="transparent"
+                                        maxLength={10}
+                                        onChangeText={ EnteredValue => this.ShowMaxAlert(EnteredValue) }
                                     />
                                 </Animated.View>
                             </Animated.View>
                         </TouchableOpacity>
 
                     </Animated.View>
-                    <View
+                    <Animated.View
+                    
                         style={{
-                            height: 70,
+                            height: this.socialHeight,//animated
                             backgroundColor: 'white',
                             alignItems: 'flex-start',
                             justifyContent: 'center',
                             borderTopColor: '#e8e8ec',
                             borderTopWidth: 1,
-                            paddingHorizontal: 25
+                            paddingHorizontal: 25,
+                            marginTop: marginSocialTop,
+                        
                         }}
                     >
-                        <Text
-                            style={{
-                                color: '#5a7fdf', fontWeight: 'bold'
-                            }}
-                        >
-                            Or connect using a social account
-                        </Text>
-                    </View>
+                        <TouchableOpacity
+                            onPress={()=> this.increaseHeightOfSocialLogin()}
+                        >    
+                            <Animated.Text
+                            
+                                style={{
+                                    bottom: socialTextBottom,//animated
+                                    color: '#5a7fdf', fontWeight: 'bold'
+                                }}
+                            >
+                                Or connect using a social account
+                            </Animated.Text>
+                                <SocialIcon
+                                title='Sign In With Facebook'
+                                button
+                                type='facebook'
+                                />
+                                <SocialIcon
+                                title='Sign In With Google plus'
+                                button
+                                type='google-plus-official'
+                                />
+                        </TouchableOpacity>    
+                    </Animated.View>
                 </Animatable.View>
             </ImageBackground>
 
