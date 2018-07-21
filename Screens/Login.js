@@ -10,7 +10,7 @@ import {
     Animated,
     Dimensions,
     Keyboard,
-    Alert,
+   // Alert,
     Platform
 } from 'react-native';
 import { Icon } from 'native-base'
@@ -33,8 +33,6 @@ export class Login extends Component {
           // Put your code here which you want to execute when TextInput entered text reached to 10.
    
         }
-   
-      
        }
 
 
@@ -149,14 +147,13 @@ keyboardWillHide = (event) => {
 
         //this.setState({ placeholderText: '092123456789' })
         Animated.timing(this.socialHeight, {
-            toValue: SCREEN_HEIGHT,
+            toValue: SCREEN_HEIGHT + 10,
             duration: 500
         }).start()
     }
 
     decreaseHeightOfSocialLogin = () => {
 
-        Keyboard.dismiss()
         Animated.timing(this.socialHeight, {
             toValue: 70,
             duration: 500
@@ -194,8 +191,8 @@ keyboardWillHide = (event) => {
         inputRange: [0, SCREEN_HEIGHT],
         outputRange: [0, 1]
     })
-    const socialTextBottom = this.loginHeight.interpolate({
-        inputRange: [70, 350, SCREEN_HEIGHT],
+    const socialTextBottom = this.socialHeight.interpolate({
+        inputRange: [70, 400, SCREEN_HEIGHT],
         outputRange: [0, 0, 100]
     })
 
@@ -326,6 +323,7 @@ keyboardWillHide = (event) => {
                                         maxLength={10}
                                         onChangeText={ EnteredValue => this.ShowMaxAlert(EnteredValue) }
                                     />
+                                     
                                 </Animated.View>
                             </Animated.View>
                         </TouchableOpacity>
@@ -337,37 +335,49 @@ keyboardWillHide = (event) => {
                             height: this.socialHeight,//animated
                             backgroundColor: 'white',
                             alignItems: 'flex-start',
-                            justifyContent: 'center',
+                            justifyContent: 'space-evenly',
                             borderTopColor: '#e8e8ec',
                             borderTopWidth: 1,
                             paddingHorizontal: 25,
-                            marginTop: marginSocialTop,
+                            opacity: 1,//animated
+                            marginTop: marginSocialTop,//animated
                         
                         }}
                     >
-                        <TouchableOpacity
+                            <TouchableOpacity
                             onPress={()=> this.increaseHeightOfSocialLogin()}
                         >    
-                            <Animated.Text
+                             <Animated.Text
                             
                                 style={{
+                                    //position: 'absolute',
                                     bottom: socialTextBottom,//animated
                                     color: '#5a7fdf', fontWeight: 'bold'
                                 }}
                             >
-                                Or connect using a social account
-                            </Animated.Text>
-                                <SocialIcon
-                                title='Sign In With Facebook'
-                                button
-                                type='facebook'
-                                />
-                                <SocialIcon
-                                title='Sign In With Google plus'
-                                button
-                                type='google-plus-official'
-                                />
-                        </TouchableOpacity>    
+                                Or use a social account
+                          </Animated.Text> 
+                          </TouchableOpacity> 
+                                 {/* <Animated.View
+                                        style={{
+                                        flexDirection: 'row',
+                                        }}
+                                    >
+                                    
+                                    <SocialIcon
+                                        title= 'Facebook'
+                                        button
+                                        type='facebook'
+                                    />
+                                    <SocialIcon
+                                        title='Google'
+                                        button
+                                        type= 'google-plus-official'
+                                    />
+
+                                    </Animated.View> */}
+                                
+                          
                     </Animated.View>
                 </Animatable.View>
             </ImageBackground>
@@ -378,13 +388,4 @@ keyboardWillHide = (event) => {
 }
 
 export default Login;
-
-const styles = StyleSheet.create({
-   container: {
-       flex: 1,
-       alignItems: 'center',
-       justifyContent: 'center'
-   }
-});
-
 
