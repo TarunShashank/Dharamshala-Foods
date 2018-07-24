@@ -46,6 +46,8 @@ const styles = StyleSheet.create({
     logoContainer: {
         width: 250,
         height: 250,
+        // borderWidth: 1,
+        // borderColor: 'white',
     },
     horizontal: {
         flexDirection: 'column',
