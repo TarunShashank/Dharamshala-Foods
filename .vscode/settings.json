@@ -1,3 +1,17 @@
 {
-    "git.ignoreLimitWarning": true
+    
+    "files.autoSave": "onWindowChange",
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "git.enableSmartCommit": true,
+    "git.ignoreLimitWarning": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.renderIndentGuides": false,
+    "eslint.packageManager": "yarn",
+    "prettier.trailingComma": "all",
+    "editor.formatOnSave": true
 }
