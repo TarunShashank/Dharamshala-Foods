@@ -1,5 +1,5 @@
 {
-    
+
     "files.autoSave": "onWindowChange",
     "git.autofetch": true,
     "window.zoomLevel": 0,
@@ -11,7 +11,6 @@
     },
     "workbench.iconTheme": "material-icon-theme",
     "editor.renderIndentGuides": false,
-    "eslint.packageManager": "yarn",
     "prettier.trailingComma": "all",
     "editor.formatOnSave": true
 }
