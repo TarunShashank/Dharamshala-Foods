@@ -10,6 +10,5 @@
         "suppressShowKeyBindingsNotice": true
     },
     "workbench.iconTheme": "material-icon-theme",
-    "editor.renderIndentGuides": false,
-    "editor.formatOnSave": true
+    "editor.renderIndentGuides": false
 }

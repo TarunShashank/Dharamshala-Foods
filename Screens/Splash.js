@@ -25,19 +25,13 @@ export default class Splash extends Component {
   }
 
   render() {
-    return ( <
-      View style = {
-        [styles.container, styles.horizontal]
-      } >
-      <
-      Image style = {
-        styles.logoContainer
-      }
-      source = {
-        require("../assets/Icon.png")
-      }
-      />   { /* < ActivityIndicator size = "large" color = "#ffffff" / > */ } <
-      /View>
+    return ( 
+    <View style = {[styles.container, styles.horizontal]} >
+      <Image style = {styles.logoContainer}
+      source = { require("../assets/Icon.png") }
+      />  
+       { /* < ActivityIndicator size = "large" color = "#ffffff" / > */ } 
+      </View>
     );
   }
 }
