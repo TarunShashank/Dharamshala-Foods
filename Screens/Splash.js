@@ -25,7 +25,8 @@ export default class Splash extends Component {
   }
 
   render() {
-    return ( <View style = {
+    return ( <
+      View style = {
         [styles.container, styles.horizontal]
       } >
       <
@@ -35,9 +36,8 @@ export default class Splash extends Component {
       source = {
         require("../assets/Icon.png")
       }
-      />  { / * < ActivityIndicator size = "large"
-      color = "#ffffff" / > * / } 
-      </View>
+      />   { /* < ActivityIndicator size = "large" color = "#ffffff" / > */ } <
+      /View>
     );
   }
 }

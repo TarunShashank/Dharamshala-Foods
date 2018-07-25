@@ -11,7 +11,5 @@
     },
     "workbench.iconTheme": "material-icon-theme",
     "editor.renderIndentGuides": false,
-    "prettier.trailingComma": "all",
-    "editor.formatOnSave": true,
-    "prettier.eslintIntegration": true,
+    "editor.formatOnSave": true
 }
