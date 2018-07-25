@@ -3,6 +3,7 @@ Tarun Shashank
 https://www.stnsaishashank.com
 splash screen
 */
+
 import React, {
     Component
 } from 'react';
@@ -35,35 +36,40 @@ export default class Splash extends Component {
             }
             source = {
                 require('../assets/Icon.png')
-            } > < /Image> { / * < ActivityIndicator size = "large"
-            color = "#ffffff" / > * / } < /
-            View >
+            } > < /Image>  {
+                / *  <
+                ActivityIndicator
+                size = "large"
+                color = "#ffffff" / >
+                    *
+                    / }  <
+                    /View >
 
-        )
+            )
+        }
     }
-}
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'black',
-    },
-    // title: {
-    //   fontSize: 20,
-    //   fontWeight: 'bold',
-    //   color : '#ffc857',
-    // },
-    logoContainer: {
-        width: 250,
-        height: 250,
-        // borderWidth: 1,
-        // borderColor: 'white',
-    },
-    horizontal: {
-        flexDirection: 'column',
-        justifyContent: 'space-evenly',
-        padding: 10
-    }
-})
+    const styles = StyleSheet.create({
+        container: {
+            flex: 1,
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: 'black',
+        },
+        // title: {
+        //   fontSize: 20,
+        //   fontWeight: 'bold',
+        //   color : '#ffc857',
+        // },
+        logoContainer: {
+            width: 250,
+            height: 250,
+            // borderWidth: 1,
+            // borderColor: 'white',
+        },
+        horizontal: {
+            flexDirection: 'column',
+            justifyContent: 'space-evenly',
+            padding: 10
+        }
+    })
