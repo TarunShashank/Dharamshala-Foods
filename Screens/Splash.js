@@ -4,7 +4,9 @@ https://www.stnsaishashank.com
 splash screen
 */
 
-import React, { Component } from "react";
+import React, {
+  Component
+} from "react";
 import {
   StyleSheet,
   View,
@@ -23,14 +25,18 @@ export default class Splash extends Component {
   }
 
   render() {
-    return (
-      <View style={[styles.container, styles.horizontal]}>
-        <Image
-          style={styles.logoContainer}
-          source={require("../assets/Icon.png")}
-        />
-        {/* < ActivityIndicator size = "large"
-                    color = "#ffffff" / > */}
+    return ( <View style = {
+        [styles.container, styles.horizontal]
+      } >
+      <
+      Image style = {
+        styles.logoContainer
+      }
+      source = {
+        require("../assets/Icon.png")
+      }
+      />  { / * < ActivityIndicator size = "large"
+      color = "#ffffff" / > * / } 
       </View>
     );
   }

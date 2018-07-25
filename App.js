@@ -17,7 +17,7 @@ import Login from './Screens/Login';
 
 export default class App extends Component {
   render() {
-    return <AppStackNavigator />;
+    return <AppStackNavigator / > ;
   }
 }
 

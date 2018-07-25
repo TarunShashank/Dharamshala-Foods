@@ -32,7 +32,7 @@ class Main extends Component {
     const {
       currentScreen,
     } = this.state;
-    const mainScreen = currentScreen === 'Splash' ? <Splash /> : <App />;
+    const mainScreen = currentScreen === 'Splash' ? < Splash / > : < App / > ;
     return mainScreen;
   }
 }
