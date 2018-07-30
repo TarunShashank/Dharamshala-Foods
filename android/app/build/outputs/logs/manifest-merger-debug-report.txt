@@ -5,7 +5,7 @@ INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\ap
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:1:1-28:12
 MERGED from [:react-native-vector-icons] C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c8853784ca9a0aaa0c3099b4a7fc1143\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4716ca9ccf830744593cc3f830a31191\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\4b642199331e4617dc35cf942bf521ac\AndroidManifest.xml:17:1-28:12
@@ -16,14 +16,14 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Lenovo\.gra
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e037e8c6e72c17515c7c6c4dd01113ea\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f0020b0f8f272eb4f1c301017120f058\AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\fcafd9c88b047ccda8a7a8642c79e743\AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\4aeea1e48d654e3d25f9931f5aa75399\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\8cd2ba1cd775ff57676352c77802523f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\59a0ef098a17eb3c3f23a551b89ed187\AndroidManifest.xml:1:1-4:12
+MERGED from [com.facebook.fresco:fresco:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.9.0.aar\27875a04dc9d7fb24bc65ef37ef45fc7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.9.0.aar\1c22ea5e6490a92dd8fa0b9eada0c051\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.9.0.aar\a0df69e79c5f1a8ec24a3c2d033c829f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.9.0.aar\7268c9018968061bb9329650fbc21d38\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.9.0.aar\3cf3d76f656bba6cda4ca5ae479a0c7b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.3.0.aar\855027502ee02b86b7e7d77aed60253d\AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\92ad5fce5744e8b88a87ae4da844ffac\AndroidManifest.xml:1:1-3:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\afc4c74026939ca1725faa6353ff82be\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\a2280ddd875180d5697ec109cefc197b\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\fbd0fdbc7433750c748c45ff22c3c47a\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\cd9e1503e9ab3b64d7aa571edbdd0cb7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.9.0.aar\f4a928a81335e345317cc4b776aecfae\AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\6c35bcee6dd0d5770e74be98bbad2773\AndroidManifest.xml:17:1-30:12
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:1:1-28:12
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:1:1-28:12
@@ -50,8 +50,8 @@ ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\s
 		ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:6:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:6:22-75
 uses-permission#android.permission.READ_PHONE_STATE
@@ -62,8 +62,8 @@ ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\s
 		ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:7:22-72
 application
 ADDED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml:9:5-26:19
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c8853784ca9a0aaa0c3099b4a7fc1143\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c8853784ca9a0aaa0c3099b4a7fc1143\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4716ca9ccf830744593cc3f830a31191\AndroidManifest.xml:22:5-26:19
@@ -82,8 +82,8 @@ MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Lenovo\.gradle
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\e037e8c6e72c17515c7c6c4dd01113ea\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f0020b0f8f272eb4f1c301017120f058\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f0020b0f8f272eb4f1c301017120f058\AndroidManifest.xml:25:5-29:19
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\59a0ef098a17eb3c3f23a551b89ed187\AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\59a0ef098a17eb3c3f23a551b89ed187\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.3.0.aar\855027502ee02b86b7e7d77aed60253d\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.3.0.aar\855027502ee02b86b7e7d77aed60253d\AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\92ad5fce5744e8b88a87ae4da844ffac\AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\92ad5fce5744e8b88a87ae4da844ffac\AndroidManifest.xml:2:3-17
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\6c35bcee6dd0d5770e74be98bbad2773\AndroidManifest.xml:24:5-28:19
@@ -128,8 +128,8 @@ INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\ap
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml
 MERGED from [:react-native-vector-icons] C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\4e8d037dbee18963389fd645a3fa8001\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\react-native-0.56.0.aar\0dc4a8d994580a6646976471c26808c7\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c8853784ca9a0aaa0c3099b4a7fc1143\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c8853784ca9a0aaa0c3099b4a7fc1143\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\4716ca9ccf830744593cc3f830a31191\AndroidManifest.xml:20:5-44
@@ -150,20 +150,20 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f0020b0f8f272eb4f1c301017120f058\AndroidManifest.xml:21:5-23:58
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\fcafd9c88b047ccda8a7a8642c79e743\AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\fcafd9c88b047ccda8a7a8642c79e743\AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\4aeea1e48d654e3d25f9931f5aa75399\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\4aeea1e48d654e3d25f9931f5aa75399\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\8cd2ba1cd775ff57676352c77802523f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\8cd2ba1cd775ff57676352c77802523f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\59a0ef098a17eb3c3f23a551b89ed187\AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\59a0ef098a17eb3c3f23a551b89ed187\AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\afc4c74026939ca1725faa6353ff82be\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\afc4c74026939ca1725faa6353ff82be\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\a2280ddd875180d5697ec109cefc197b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\a2280ddd875180d5697ec109cefc197b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\fbd0fdbc7433750c748c45ff22c3c47a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\fbd0fdbc7433750c748c45ff22c3c47a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\cd9e1503e9ab3b64d7aa571edbdd0cb7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\cd9e1503e9ab3b64d7aa571edbdd0cb7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.9.0.aar\27875a04dc9d7fb24bc65ef37ef45fc7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fresco-1.9.0.aar\27875a04dc9d7fb24bc65ef37ef45fc7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.9.0.aar\1c22ea5e6490a92dd8fa0b9eada0c051\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.9.0.aar\1c22ea5e6490a92dd8fa0b9eada0c051\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.9.0.aar\a0df69e79c5f1a8ec24a3c2d033c829f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\drawee-1.9.0.aar\a0df69e79c5f1a8ec24a3c2d033c829f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.9.0.aar\7268c9018968061bb9329650fbc21d38\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.9.0.aar\7268c9018968061bb9329650fbc21d38\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.9.0.aar\3cf3d76f656bba6cda4ca5ae479a0c7b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.9.0.aar\3cf3d76f656bba6cda4ca5ae479a0c7b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.3.0.aar\855027502ee02b86b7e7d77aed60253d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\soloader-0.3.0.aar\855027502ee02b86b7e7d77aed60253d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.9.0.aar\f4a928a81335e345317cc4b776aecfae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\fbcore-1.9.0.aar\f4a928a81335e345317cc4b776aecfae\AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\6c35bcee6dd0d5770e74be98bbad2773\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\6c35bcee6dd0d5770e74be98bbad2773\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Lenovo\Desktop\React projects\dharamshalafoods\android\app\src\main\AndroidManifest.xml
