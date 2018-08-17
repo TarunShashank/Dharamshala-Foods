@@ -1,16 +1,13 @@
+const admin = require('firebase-admin');
 const functions = require('firebase-functions');
 const createUser = require('./create-users');
+const serviceAccount = require('./service-account.json');
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
- exports.helloWorld = functions.https.onRequest((request, response) => {
-  response.send("Hello from Firebase!");
- });
 
- exports.goodBye = functions.https.onRequest((request, response) => {
-    response.send("GoodBye!");
-   });
-  
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://dharamshalafoods-otplogin.firebaseio.com"
+  });
+
 
 exports.createUser = functions.https.onRequest(createUser);

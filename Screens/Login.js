@@ -172,12 +172,13 @@ keyboardWillHide = (event) => {
         outputRange: [0, 1],
       });
 
+
       const marginSocialTop = this.socialHeight.interpolate({
-        inputRange: [0, SCREEN_HEIGHT],
+        inputRange: [150, SCREEN_HEIGHT],
         outputRange: [0, 1],
       });
       const socialTextBottom = this.socialHeight.interpolate({
-        inputRange: [70, 400, SCREEN_HEIGHT],
+        inputRange: [150, 400, SCREEN_HEIGHT],
         outputRange: [0, 0, 100],
       });
 
@@ -199,7 +200,7 @@ keyboardWillHide = (event) => {
             <TouchableOpacity
               onPress={() => this.decreaseHeightOfLogin() || this.decreaseHeightOfSocialLogin()}
             >
-              <Icon name="md-arrow-back" style={{ color: 'black' }} />
+              <Icon name="md-arrow-back" style={{ color: 'red' }} />
             </TouchableOpacity>
           </Animated.View>
 
@@ -218,7 +219,7 @@ keyboardWillHide = (event) => {
               borderRadius: 30,
             }}
           >
-            <Icon name="md-arrow-forward" style={{ color: 'white' }} />
+            <Icon name="md-arrow-forward" style={{ color: 'white'  }} />
           </Animated.View>
 
           <ImageBackground
@@ -234,10 +235,10 @@ keyboardWillHide = (event) => {
                 }}
               >
                 <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 27 }}>
-Dharamshala
+                Dharamshala
                 </Text>
                 <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 27 }}>
-Foods
+                Foods
                 </Text>
               </Animatable.View>
             </View>
