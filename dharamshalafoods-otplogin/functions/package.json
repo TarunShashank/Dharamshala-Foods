@@ -9,8 +9,12 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "clickatell-platform": "^2.0.11",
+    "express": "^4.16.3",
     "firebase-admin": "~5.13.0",
-    "firebase-functions": "^2.0.0"
+    "firebase-functions": "^2.0.0",
+    "request": "^2.88.0"
   },
   "private": true
 }

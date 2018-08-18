@@ -48,7 +48,7 @@ export class Login extends Component {
     componentWillMount() {
       this.loginHeight = new Animated.Value(150);
 
-      this.socialHeight = new Animated.Value(70);
+      this.socialHeight = new Animated.Value(90);
 
       this.keyboardWillShowListener = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
 
@@ -74,7 +74,7 @@ export class Login extends Component {
 
        Animated.timing(this.keyboardHeight, {
          duration: duration + 100,
-         toValue: event.endCoordinates.height + 10,
+         toValue: event.endCoordinates.height,
        }),
        Animated.timing(this.forwardArrowOpacity, {
          duration,
@@ -173,14 +173,8 @@ keyboardWillHide = (event) => {
       });
 
 
-      const marginSocialTop = this.socialHeight.interpolate({
-        inputRange: [150, SCREEN_HEIGHT],
-        outputRange: [0, 1],
-      });
-      const socialTextBottom = this.socialHeight.interpolate({
-        inputRange: [150, 400, SCREEN_HEIGHT],
-        outputRange: [0, 0, 100],
-      });
+      
+      
 
 
       return (
@@ -198,11 +192,13 @@ keyboardWillHide = (event) => {
             }}
           >
             <TouchableOpacity
-              onPress={() => this.decreaseHeightOfLogin() || this.decreaseHeightOfSocialLogin()}
+              onPress={() => this.decreaseHeightOfLogin() ||this.decreaseHeightOfSocialLogin()}
             >
-              <Icon name="md-arrow-back" style={{ color: 'red' }} />
+              <Icon name="md-arrow-back" style={{ color: 'black' }} />
             </TouchableOpacity>
           </Animated.View>
+
+          
 
           <Animated.View
             style={{
@@ -219,7 +215,7 @@ keyboardWillHide = (event) => {
               borderRadius: 30,
             }}
           >
-            <Icon name="md-arrow-forward" style={{ color: 'white'  }} />
+            <Icon name="md-arrow-forward" style={{ color: 'grey'  }} />
           </Animated.View>
 
           <ImageBackground
@@ -263,8 +259,7 @@ keyboardWillHide = (event) => {
                 >
                   <Text
                     style={{ fontSize: 24, color: 'black' }}
-                  >
-Get Food Delivered Now
+                  >Get Food Delivered Now
                   </Text>
                 </Animated.View>
 
@@ -287,8 +282,7 @@ Get Food Delivered Now
                         left: titleTextLeft, // animated
                         opacity: titleTextOpacity, // animated
                       }}
-                    >
-                                    Enter your mobile number
+                    >Enter your mobile number
                     </Animated.Text>
 
 
@@ -312,8 +306,7 @@ Get Food Delivered Now
                         paddingVertical: 10,
                         color: 'black',
                       }}
-                      >
-+91
+                      >+91
                       </Text>
 
                       <TextInput
@@ -342,7 +335,7 @@ Get Food Delivered Now
                   borderTopWidth: 1,
                   paddingHorizontal: 25,
                   opacity: 1, // animated
-                  marginTop: marginSocialTop, // animated
+                 // marginTop: marginSocialTop, // animated
 
                 }}
               >
@@ -353,12 +346,11 @@ Get Food Delivered Now
 
                     style={{
                       // position: 'absolute',
-                      bottom: socialTextBottom, // animated
+                      //bottom: socialTextBottom, // animated
                       color: '#5a7fdf',
                       fontWeight: 'bold',
                     }}
-                  >
-                                Or use a social account
+                  > Or use a social account
                   </Animated.Text>
                 </TouchableOpacity>
                 {/* <Animated.View
@@ -378,7 +370,7 @@ Get Food Delivered Now
                                         type= 'google-plus-official'
                                     />
 
-                                    </Animated.View> */}
+                </Animated.View> */}
 
 
               </Animated.View>
