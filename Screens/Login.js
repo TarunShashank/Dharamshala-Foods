@@ -48,7 +48,7 @@ export class Login extends Component {
     componentWillMount() {
       this.loginHeight = new Animated.Value(150);
 
-      this.socialHeight = new Animated.Value(90);
+      this.socialHeight = new Animated.Value(120);
 
       this.keyboardWillShowListener = Keyboard.addListener('keyboardWillShow', this.keyboardWillShow);
 
