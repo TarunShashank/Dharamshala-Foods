@@ -12,7 +12,6 @@ module.exports = {
         var sendMessageRest = rest.sendMessage(content, to, apiKey)
         return sendMessageRest;
     }
-    // more methods coming
 }
 
 admin.initializeApp({
