@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const clickatell = require('./clickatell');
+const twilio = require('./twilio');
 
 module.exports = function (req, res) {
     if (!req.body.phone) {
@@ -13,24 +13,21 @@ module.exports = function (req, res) {
     admin.auth().getUser(phone)
         .then(userRecord => {
             const code = Math.floor((Math.random() * 899999 + 100000));
-            clickatell.sendMessageRest("Your otp is " + code, phone, "OobsxwubTH6yBmuAJrAiMg==");
+            
+            twilio.messages.create({
+                body:'Your code is'+ code,
+                to: phone,
+                from: '+18508764422'
+            })    
         }, (err) => {
-            if (err) {
-                return res.status(422).send(err);
-            }
+            if (err) { return res.status(422).send(err); }
+
             admin.database().ref('users/' + phone)
-                .update({
-                    code: code,
-                    codeValid: true
-                }, () => {
-                    res.send({
-                        sucess: true
-                    });
-                });
+                .update({ code: code, codeValid: true }, () => {
+                    res.send({ sucess: true });
+                })
         })
         .catch((err) => {
-            return res.status(422).send({
-                error: err
-            });
-        })
+            return res.status(422).send({ error: err });
+        });
 }

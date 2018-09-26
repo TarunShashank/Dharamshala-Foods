@@ -14,6 +14,7 @@ import {
   StackNavigator,
 } from 'react-navigation';
 import Login from './Screens/Login';
+import Otp from './Screens/otp';
 
 export default class App extends Component {
   render() {
@@ -21,11 +22,15 @@ export default class App extends Component {
   }
 }
 
-const AppStackNavigator = StackNavigator({
-  LoginScreen: {
-    screen: Login,
+const AppStackNavigator = StackNavigator(
+  {
+    Login: Login,
+    Otp : Otp,
   },
-});
+  {
+    initialRouteName: 'Login',
+  }
+);
 
 const styles = StyleSheet.create({
   container: {
